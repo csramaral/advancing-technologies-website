@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:700" rel="stylesheet">">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tickets</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tickets.html">Tickets</a></li>
+        </ul>
+    </nav>
+    <header style="background: url('images/conference-hero.jpg')">
+        <div id="header">
+            <img src="images/hero-symbol.jpg" alt="hero symbol">
+            <h1>ADVANCING TECHNOLOGY</h1>
+            <h2>1st Annual Budding Developers Conference</h2>
+            <p>Orlando, FL - October 11, 2019</p>
+        </div>
+    </header>
+    
+    
+    <div id="orders">
+        <h1>Get your tickets!</h1>
+
+        <div class="wrap" id="buy-form">
+            <form method="post" action="">
+                <div class="label-input">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required placeholder="Name">
+                </div>
+                <div class="label-input">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" required placeholder="Email">
+                </div>
+                <h3>Package</h3>
+                <p>
+                    <select name="package">
+                        <option value="standard">Standard - $149</option>
+                        <option value="premium">Premium - $249</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="lodging" value="lodging">Add on lodging - $99<br>
+                    <input type="checkbox" name="meals" value="meals">Add on meals - $119<br>
+                </p>
+                <p><input class="buy-button" type="submit" value="Submit"></p>
+        
+            </form>
+        </div>
+
+    </div>
+    <footer>
+        <div class="wrap">
+            &copy; 2019
+        </div>
+    </footer>
+</body>
+
+</html>
