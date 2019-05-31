@@ -287,6 +287,58 @@ input:focus, select:focus {
     border: 1px solid #495867;
 }
 
+/* MODAL promocional */
+#modal-promo {
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    width: 250px;
+    height: 140px;
+    background-color: red;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    color: #333;
+}
+
+/* .close::before, .close::after {
+    position: absolute;
+    right: 7px;
+    content: ' ';
+    height: 21px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close::before {
+    transform: rotate(-45deg);
+}
+
+.close::after {
+    transform: rotate(45deg);
+} */
+
+#modal-promo input {
+    width: 150px;
+}
+
+.modal-hidden {
+    display: none;
+}
+
+.modal-shown {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
 
 /* FOOTER */
 
