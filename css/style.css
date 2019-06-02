@@ -345,6 +345,72 @@ input:focus, select:focus {
     font-weight: 700;
 }
 
+/* RATINGS */
+
+#rating-options {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.speakers-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.speaker-button {
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+    background-color: #fe5f55;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.rating-button {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    background-color: #fe5f55;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.selected-button {
+    background-color: #A93F55;
+}
+
+.rating-button:hover {
+    opacity: 0.75;
+}
+
+#thank-you {
+    width: 800px;
+    height: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-hidden {
+    display: none;
+}
+
+.thanks-shown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 /* FOOTER */
 
 footer {
